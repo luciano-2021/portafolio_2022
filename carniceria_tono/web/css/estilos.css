@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 100%;
+    padding: 100%;
+}
+
+#tituloparque1 {
+    color: #db06f7;
+    text-align: center;
+    font-family: "Bernard MT Condensed";
+}
+
+
+.fld_qs{
+    font-size:14px; /* tamaño de la letra*/
+    color: #676767;
+    text-align: justify; /* el texo que aliniado */
+    border: 2px solid gray;
+    padding: 5px 15px; /* espacio de borde con el elemento del interior*/
+    border-radius: 10px; /* redonde las esquinas*/
+    max-width: 560px; /* el ancho maximo de un elemento*/
+    margin-left: 100px;   /* margen izquierdo*/
+}
+
+.legend_qs{
+    width: 180px; /* el ancho*/
+    padding: 0px 5px;  
+}
+
+
+.h3_mision{
+    color:#676767 ;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.txt_mision{
+    font-size:14px;
+    color:#676767 ;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px 15px;
+    text-align: justify;
+
+}
+
+
+
+.img-fluid{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px; /* redonde las esquinas*/
+    max-width: 60px; /* el ancho maximo de un elemento*/
+
+}
+
+footer{
+    max-width: 1000px;
+    background: #000;
+    margin: auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.redes{
+    padding: 30px;
+
+
+}
+
+.redes h7{
+    text-align: center;
+   
+
+
+}
+
+.sociales{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
+}
+.sociales li{
+    display: inline-block;
+
+}
+
+.videos h7{
+    font-size: 14px;
+    text-align: center;
+    
+
+}
+
+img{
+    width: 120px;
+}

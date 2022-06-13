@@ -1,0 +1,120 @@
+<html>
+    <header>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+        <style>
+            body {
+                font-family: "Lato", sans-serif;
+            }
+
+            .main-head{
+                height: 150px;
+                background: #FFF;
+            
+            }
+
+            .sidenav {
+                height: 100%;
+                background-color: #000;
+                overflow-x: hidden;
+                padding-top: 20px;
+            }
+
+
+            .main {
+                padding: 0px 10px;
+            }
+            .btn_mod{
+                margin-top: 20px;
+                width: 100px;
+            }
+
+            @media screen and (max-height: 450px) {
+                .sidenav {padding-top: 15px;}
+            }
+
+            @media screen and (max-width: 450px) {
+                .login-form{
+                    margin-top: 10%;
+                }
+
+                .register-form{
+                    margin-top: 10%;
+                }
+            }
+
+            @media screen and (min-width: 768px){
+                .main{
+                    margin-left: 40%; 
+                }
+
+                .sidenav{
+                    width: 40%;
+                    position: fixed;
+                    z-index: 1;
+                    top: 0;
+                    left: 0;
+                }
+
+                .login-form{
+                    margin-top: 80%;
+                }
+
+                .register-form{
+                    margin-top: 20%;
+                }
+            }
+
+
+            .login-main-text{
+                margin-top: 20%;
+                padding: 60px;
+                color: #fff;
+            }
+
+            .login-main-text h2{
+                font-weight: 300;
+            }
+
+            .btn-black{
+                background-color: #000 !important;
+                color: #fff;
+            }
+            img{
+                margin-left: -20px;
+            }
+        </style>
+    </header>
+    
+        <div class="sidenav">
+                <div class="login-main-text">
+                    <h2>Carniceria Toño<br>Inicio de Sesión</h2>
+                    <p>Inicia sesión o register para acceder</p>
+                    <img src="imagenes/logonegro.jpg.jpg" width="300" height="150" alt="">
+                </div>
+            </div>
+            <div class="main">
+                <div class="col-md-6 col-sm-12">
+                    <div class="login-form">
+                    <form>
+                        <div class="form-group">
+                            <label>RUT</label>
+                            <input type="text" class="form-control" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label>Contraseña</label>
+                            <input type="password" class="form-control" placeholder="">
+                        </div>
+                        <button type="submit" class="btn btn-black btn_mod">Inicio</button>
+                        <button type="submit" class="btn btn-secondary btn_mod">Registro</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</html>
